@@ -1,0 +1,105 @@
+# Gradle
+.gradle/
+**/build/
+!src/**/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Gradle Wrapper (keep the jar for reproducibility)
+# Uncomment if you don't want to commit the wrapper jar
+# gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.kt.swp
+*.kotlin_module
+*.kotlin_builtins
+
+# Java/JVM
+hs_err_pid*
+replay_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+
+# Nix
+.direnv/
+.envrc.cache
+result
+result-*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.#*
+
+# Logs
+*.log
+logs/
+
+# Personal/Local files
+.env
+.env.local
+local.properties
+
+# Temp files created by Rovo Dev
+tmp_rovodev_*
